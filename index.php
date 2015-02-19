@@ -2,26 +2,29 @@
 <html>
     <head>
     
-        <title>Flickr sökverktyg</title>
+        <title>Flickr Gallery Creator</title>
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css" />
+
+        <link rel="stylesheet" href="/style.css" type="text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css'>
         
     </head>
     
     <body>
-    
-        <div class="container-fluid">
-            <div class="row">
-                <form action="flickrcall.php" method="post">
-                    <input type="text" name="search" placeholder="S&ouml;k Flickr">
-                    <input type="submit">
+        
+            <h1>Flickr Gallery Creator</h1>
+            <div>
+                <form action="flickrcall.php" method="post" class="centerForm" autocomplete="off">
+                    <input type="text" class="searchBar" name="search" placeholder="Search Flickr"><br>
+                    <input id="submit" type="submit">
                 </form>
             </div>
-        </div>
-            
+
+        <script type="text/javascript" src="/imageSelector.js"></script>';
+        <script type="text/javascript" src="/showGallery.js"></script>';
+        <script type="text/javascript" src="/disableLightbox.js"></script>';
+        
     </body>
 </html>
-
