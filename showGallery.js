@@ -2,8 +2,9 @@ document.getElementById("showGallery").addEventListener("click", show);
 document.getElementById("showGallery").addEventListener("click", hideShow);
 document.getElementById("showGallery").addEventListener("click", disableSelect);
 document.getElementById("showGallery").addEventListener("click", enableLightbox);
-document.getElementById("showGallery").addEventListener("click", removeBG);
 document.getElementById("showGallery").addEventListener("click", hideInstructions);
+document.getElementById("showGallery").addEventListener("click", showBack);
+document.getElementById("showGallery").addEventListener("click", scrollWin);
 
 function show() {
     var img = document.getElementsByTagName("img");
@@ -32,14 +33,14 @@ function enableLightbox() {
     }
 }
 
-function removeBG() {
-    var html = document.getElementsByTagName("html");
-    for (var i = 0; i < html.length; i++) {
-        html[i].style.background = "#ffffff";
-    }
-}
-
 function hideInstructions() {
     document.getElementById("resultsText").style.display = "none";
 }
-    
+
+function showBack() {
+    document.getElementById("backToResults").style.display = "block";
+}
+
+function scrollWin() {
+    window.scrollTo(0, 0);
+}
