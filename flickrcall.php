@@ -22,7 +22,7 @@ require_once('flickr.php');
             <input type="text" class="searchBar" name="search" placeholder="Search"><br>
             <input id="submit" type="submit">
         </form>
-        <a href="index.php" class="home"><h2>Home</h2></a>
+        <a href="index.html" class="home"><h2>Home</h2></a>
     </div>
     <div class="resultWrap">
     <div id="backToResults" class="resultsContainer">
