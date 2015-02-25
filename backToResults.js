@@ -9,7 +9,8 @@ function hide() {
     var img = document.getElementsByTagName("img");
     for (var i = 0; i < img.length; i++) {
         if (img[i].classList.contains("small")) {
-            img[i].style.display = "none";
+            img[i].classList.toggle("large");
+            img[i].classList.toggle("small");
         } else if (img[i].classList.contains("large")) {
             img[i].style.display = "";
         }
