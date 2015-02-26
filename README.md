@@ -18,4 +18,5 @@ Användarscenario:
 
 
 Regler:	
+
 1. Inga tredjepartsbibliotek (som tex Angular eller Jquery) är tillåtna.
