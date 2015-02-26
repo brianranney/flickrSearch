@@ -5,6 +5,7 @@ This Flickr Search Tool was built as a work sample using the following guideline
 Mål: Skapa en single page application (SPA) med koppling till bildtjänsten Flickr för att välja och visa bilder utifrån en viss sökning.
 
 Användarscenario:
+
 1. Användaren ska kunna navigera till en sida med en sökfunktion (fritext).
  
 2. När användaren gjort en sökning ska bilder från Flickr som matchar sökningen visas.
